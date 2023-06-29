@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+ 
+}
+.items{
+ max-width: 950px;
+ margin: 0 auto;
+}
+
+.wholle-prewive-box {
+ display: flex;
+ flex-direction: row;
+  border-radius: 5px;
+  margin: 2rem;
+}
+
+.orange-color-box {
+  background-color:hsl(31, 77%, 52%) ;
+  
+  padding: 40px ;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.lightgreen-box{
+  background-color:  hsl(184, 100%, 22%);
+ 
+  padding: 40px;
+
+}
+.dark-green-box{
+
+  background-color: hsl(179, 100%, 13%) ;
+  padding:40px;
+ 
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+h1 {
+  margin: 10px 0;
+  color: white;
+  font-weight: 700 ;
+  
+}
+p{
+  font-weight: 400;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75) ;
+  margin-bottom: 20px;
+}
+
+
+.light-green-button{
+background-color: hsl(0, 0%, 95%) ;
+padding: 10px 20px;
+color: hsl(184, 100%, 22%);
+border-radius: 20px;
+border: none;
+font-weight: 400;
+font-size: 15px;
+margin-top: 30px;
+cursor: pointer;
+display: inline-block;
+}
+.light-green-button:active{
+  background-color: transparent;
+  color: white;
+  border:2px solid white;
+}
+.orang-button{
+  background-color: hsl(0, 0%, 95%) ;
+padding: 10px 20px;
+color: hsl(31, 77%, 52%) ;
+border-radius: 20px;
+border: none;
+font-weight: 400;
+font-size: 15px;
+margin-top: 30px;
+cursor: pointer;
+display: inline-block;
+}
+.orang-button:active{
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+.darkgreen-button{
+  background-color: hsl(0, 0%, 95%) ;
+  padding: 10px 20px;
+  color:  hsl(179, 100%, 13%) ;
+  border-radius: 20px;
+  border: none;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+.darkgreen-button:active{
+  background-color: transparent;
+  color: white;
+  border:2px solid white;
+}
+
+
+@media only screen and (max-width:768px){
+  .wholle-prewive-box{
+    flex-direction: column;
+   
+  }
+}
+
+@media only screen and (max-width:375px){
+  .wholle-prewive-box{
+    flex-direction: column;
+    margin: 2rem 5rem;
+    
+  }
+
+  
+}
